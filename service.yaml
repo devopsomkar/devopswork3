@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: javac-service
+spec:
+  selector:
+    app: javac
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+  type: LoadBalancer
