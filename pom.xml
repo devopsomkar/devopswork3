@@ -34,7 +34,7 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
+                <artifactId>maven-war-plugin</artifactId>
                 <version>3.2.2</version> <!-- Slightly older, more stable version -->
             </plugin>
         </plugins>
